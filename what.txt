@@ -1,0 +1,14 @@
+BBoard:
+   user list
+   message list
+   current_user
+
+User:
+   contains username and password and can validate them
+
+Message (abstract):
+   contents (author, body)
+   list of children
+   subclasses:
+      topic
+      reply
